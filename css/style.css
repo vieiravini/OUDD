@@ -1,0 +1,407 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 260px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../images/menu.png);
+    height: 116px;
+}
+#menu2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../images/menu.png);
+    height: 116px;
+}
+li {
+	margin: 10px 0;
+	text-align: center;
+	width: 240px;
+	float: left;
+}
+
+li a, .dropbtn {
+	font-size: 32px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin: 4.5px 0px 0 0px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	color: #d98a67;
+}
+li a {
+	font-family: 'Merienda', cursive;
+	text-align: center;
+}
+li.dropdown {
+    display: inline-block;
+    align-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #773c32;
+    width: 239px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+	font-size: 20px;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #412622;
+	width: 207px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active{
+	color: #bb5440;
+}
+
+#envelope{
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+}
+#logo{
+	position: absolute;
+	left: 420px;
+	margin: 0;
+	padding: 0;
+	transition: transform .5s; 
+		
+}
+#logo img:hover{
+	transform: scale(1.008); 
+}
+#logo2{
+	position: absolute;
+	left: 439.5px;
+	margin: 0;
+	padding: 0;
+	transition: transform .5s;
+}
+#logo2 img{
+	width: 81px;
+	height: 81px;
+}
+#cover{
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+#toplogo{
+	padding: 0;
+	margin: 0;
+	z-index: 3;
+}
+	
+.title{
+	margin: 50px 0;
+	text-align: center;
+}
+
+.home figure{
+	text-align: center;
+	background-color: rgba(68, 50, 50, .2);
+	height: 288px;
+	}
+.home figure img{
+	margin: 48px 48px 48px 48px;
+}
+
+footer{
+	margin-top: 96px;
+	background-image: url(../images/footer.png);
+	height: 116px;
+}
+.rodape{
+	height: 77px;
+	display: flex;
+}
+.rodape h1{
+	color: #ECCDB5;
+	margin-top: 63px;
+	margin-left: 192px;
+}
+.rodape figure{
+	padding: 0;
+	margin: 53.7px 192px 0 200px;
+}
+
+.text-meio{
+	margin-left: 96px;
+	text-align: center;
+	width: 384px;
+	height: 480px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.text-meio p{
+	margin-bottom: 100px;
+}
+.meio{
+	display: flex;
+}
+.imgs{
+	margin-left: 96px;
+	width: 288px;
+	height: 453px;
+}
+.figura{
+	margin-top: 96px;
+}
+
+.integrantes{
+	display: flex;
+	width: 768px;
+	height: 288px;
+	margin: 0 96px 0 96px;
+}
+
+section h1{
+	margin-top: 110px;
+	text-align: center;
+}
+section h2{
+	margin-top: 110px;
+	text-align: center;
+}
+.slice{
+	filter: grayscale(25%) blur(5px);
+	transition-duration: all 1s ease;
+}
+.slice:hover{
+	filter: grayscale(0%) blur(0px);
+}
+
+.integrantes1{
+	padding: 0;
+	margin: 96px 96px 0px 96px;
+	width: 768px;
+	text-align: center;
+}
+
+.integrantes1 img{
+	justify-content: space-between;
+}
+.turco{
+	margin: 0 80px 0 80px;
+}
+
+
+.integrantes2{
+	padding: 0;
+	margin: 96px 96px 0px 96px;
+	width: 768px;
+	text-align: center;
+}
+
+.integrantes1 img{
+	justify-content: space-between;
+}
+.pato{
+	margin: 0 80px 0 80px;
+}
+
+.textint{
+	text-align: center;
+	margin: 0 96px 0 96px;
+	display: flex;
+	font-size: 12px;
+	width: 768px;
+	height: 96px;
+}
+
+.textint div{
+	width: 192px;
+}
+.textmid{
+	margin: 0 96px 0 96px;
+}
+
+.topint{
+	margin-bottom: 96px;
+	text-align: center;
+}
+
+.music{
+	margin-left: 211px;
+	text-align: center;
+	width: 548px;
+
+}
+
+.music1{
+	padding: 5px;
+	border-radius: 1px;
+	border-style: solid;
+	margin: 0 0 4px 0;
+	width: 144px;
+	height: 144px;
+}
+.music a:visited, .music a:link{
+	color: #773C32;
+}
+
+
+.middlemusic{
+	border-style: solid;
+	border-radius: 1px;
+	padding: 10px;
+	margin: 0 20px 0 20px;
+}
+
+.music-name{
+	display: flex;
+	padding: 10px;
+}
+
+.music-name div{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	width: 144px;
+	font-size: 12px;
+}
+
+.dona{
+	margin: 0 40px 0 48px;
+}
+.avda{
+	margin: 0 0 0 8px;
+}
+
+.spotmiddle{
+	margin: 0 45px 0 50px;
+}
+
+.bar{
+	margin: 96px 96px 96px 96px;
+}
+
+.music-vid{
+	margin: 0 192px 0 192px;
+}
+
+.table{
+	background-color: #EBEBEB;
+	margin: auto;
+	width: 768px;
+}
+
+.line{
+	border-style: solid;
+	padding: 20px;
+	display: flex;
+}
+	
+
+h4{
+	margin: 0;
+}
+
+
+iframe{
+	display: flex;
+	margin:0 0 0 192px;
+}
+
+.noticias{
+	position: relative;
+	top: -50px;
+	margin: 80px 0;
+}
+
+
+.galeria img{
+	margin: 0 0 0 96px;
+	width: 300px;
+	height: 192px;
+}
+.galeria{
+	margin: 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #773C32;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #ECCDB5;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 786px;
+ 	margin: auto;
+}
+
+
+.home-text{
+	width: 578px;
+	height: 192px;
+	margin: auto;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
